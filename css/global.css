@@ -1,0 +1,11 @@
+:root{
+    --fontSize: 16px;
+    --fontFamily: "Tahoma";
+    --defaultColor: #000000;
+}
+
+html, body{
+    font-size: var(--fontSize);
+    font-family: var(--fontFamily);
+    color: var(--defaultColor);
+}
